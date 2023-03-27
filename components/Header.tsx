@@ -23,7 +23,8 @@ const Header = (props: Props) => {
         transition={{ duration: 1.5 }}
         className="flex  items-center flex-row  text-gray-500 uppercase font-semibold  text-lg md:text-xl pt-2"
       >
-        <p>Grace Uche-Odii Ezinne </p>
+        <p className="hidden md:block">Grace Uche-Odii Ezinne </p>
+        <p className="md:hidden">G.E.W</p>
       </motion.div>
 
       <motion.div

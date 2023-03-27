@@ -24,9 +24,9 @@ const About = (props: Props) => {
           duration: 1.2,
         }}
         src="./images/zhye.jpg"
-        className="-mb-20 md:mb-0 mt-[100px] md:mt-0   flex-shrink-0 w-[170px] h-[170px] rounded-full object-cover md:rounded-lg md:h-96 md:w-64 xl:w-[400px] xl:h-[450px]"
+        className="-mb-6 md:mb-0 mt-[100px] md:mt-0   flex-shrink-0 w-[170px] h-[170px] rounded-full object-cover md:rounded-lg md:h-96 md:w-64 xl:w-[400px] xl:h-[450px]"
       />
-      <div className="space-y-4 px-0 md:px-10 md:pt-0 pt-[50px]">
+      <div className="space-y-4 px-0 md:px-10 md:pt-0 pt-[10px]">
         {/* <h4 className=" text-2xl md:text-3xl font-semibold">
           Here is a{" "}
           <span className="underline decoration-[orange]">little</span>{" "}
