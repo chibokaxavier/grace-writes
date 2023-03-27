@@ -8,6 +8,7 @@ type Props = {};
 const Hero = (props: Props) => {
   const [text, setText] = useTypewriter({
     words: [
+        "Hi, I am Grace Uche-Odii Ezinne.",
       "Expert Cryptocurrency/Blockchain and Web3 writer",
     ],
     loop: true,
@@ -18,10 +19,10 @@ const Hero = (props: Props) => {
       <BackgroundCircles />
       <div className="z-20">
         <h1 className="text-3xl lg:text-6xl font-semibold px-10 pb-4">
-          <span className="mr-3"> {text}</span>
+          <span className="mr-3 text-blue-300"> {text}</span>
           <Cursor cursorColor="white" />
         </h1>
-        <h2 className="tracking-[10px] md:tracking-[6px] text-sm pb-2 uppercase text-gray-500">
+        <h2 className="tracking-[10px] md:tracking-[3px] text-sm pb-2 uppercase text-gray-500">
         Get new leads, grow, and engage your audience through precise copy/content
         </h2>
         <div className="pt-5">
