@@ -41,16 +41,8 @@ const About = (props: Props) => {
           She enjoys and spends her time creating content about updates and
           guides in the blockchain space. Want a fresh and consistent flow of
           content and blog post ideas for your blockchain brand? ​ Ready to work
-          with me on creating your crypto content? Tap the get started button
-          below to send me a message!
+          with me on creating your crypto content? Tap <a href="mailto:grace.ezinne.writes@gmail.com" className="underline decoration-[#f7ab0a] text-[#f7ab0a]">Here</a> to get started.
         </p>
-        <div className="md:mt-20">
-        <a href="mailto:grace.ezinne.writes@gmail.com" target="_blank">
-        <button className="bg-[#f7ab0a] uppercase py-2 px-2 rounded-md font-bold text-black text-lg">Get Started</button>
-        </a>
-        </div>
-       
-       
       </div>
     </div>
   );

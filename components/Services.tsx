@@ -10,7 +10,7 @@ const Services = (props: Props) => {
         Services
       </h2>
 
-      <div className=" flex flex-col items-center justify-center text-sm md:text-lg text-gray-300  space-y-6 md:space-y-6 md:mt-[200px] mt-[100px] ">
+      <div className=" flex flex-col items-center justify-center text-sm md:text-lg text-gray-300  space-y-4  md:space-y-6 md:mt-[200px] mt-[100px] ">
         <p>
           Consistent content is the best way to market your
           Cryptocurrency/Blockchain brands and Web3 communities to show your
@@ -41,7 +41,7 @@ const Services = (props: Props) => {
           audience value.
         </p>
         <a href="https://medium.com/@gracewilsoncopywriter">
-          <button className=" animate-pulse  hover:bg-gray-500 transition  duration-300 hover:text-white bg-[#f7ab0a] py-3 px-2 rounded-md font-bold text-black text-lg uppercase">
+          <button className=" animate-pulse  hover:bg-gray-500 transition  duration-300 hover:text-white bg-[#f7ab0a] py-2 px-2 rounded-md font-bold text-black text-lg uppercase">
             {" "}
             check out my blog
           </button>
