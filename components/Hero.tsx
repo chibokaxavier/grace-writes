@@ -21,7 +21,7 @@ const Hero = (props: Props) => {
           <span className="mr-3"> {text}</span>
           <Cursor cursorColor="white" />
         </h1>
-        <h2 className="tracking-[10px] md:tracking-[10px] text-sm pb-2 uppercase text-gray-500">
+        <h2 className="tracking-[10px] md:tracking-[6px] text-sm pb-2 uppercase text-gray-500">
         Get new leads, grow, and engage your audience through precise copy/content
         </h2>
         <div className="pt-5">
